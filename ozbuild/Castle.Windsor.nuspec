@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+		<id>Oz.Castle.Windsor</id>
+		<version>3.0.0</version>
+		<title>Castle.Windsor (Oz Version)</title>
+		<authors>Castle Project Contributors</authors>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>Castle Windsor is best of breed, mature Inversion of Control container available for .NET and Silverlight.</description>
+		<summary>Castle Windsor is best of breed, mature Inversion of Control container available for .NET and Silverlight.</summary>
+		<language>en-US</language>
+		<projectUrl>http://www.castleproject.org/</projectUrl>
+		<licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
+		<iconUrl>http://www.castleproject.org/images/cp_logo32.png</iconUrl>
+	</metadata>
+	<files>
+		<file src="lib\**\*.*" target="lib" />
+	</files>
+</package>
