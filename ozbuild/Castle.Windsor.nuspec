@@ -12,6 +12,9 @@
 		<projectUrl>http://www.castleproject.org/</projectUrl>
 		<licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
 		<iconUrl>http://www.castleproject.org/images/cp_logo32.png</iconUrl>
+		<references>
+			<reference file="Castle.Windsor.dll" />
+		</references>
 	</metadata>
 	<files>
 		<file src="lib\**\*.*" target="lib" />
