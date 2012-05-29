@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-		<id>Oz.Castle.Windsor</id>
+		<id>Castle.Windsor</id>
+		<!-- Version is controlled by TeamCity -->
 		<version>3.0.0</version>
 		<title>Castle.Windsor (Oz Version)</title>
 		<authors>Castle Project Contributors</authors>
@@ -12,6 +13,9 @@
 		<projectUrl>http://www.castleproject.org/</projectUrl>
 		<licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
 		<iconUrl>http://www.castleproject.org/images/cp_logo32.png</iconUrl>
+		<dependencies>
+			<dependency id="Castle.Core" />
+		</dependencies>
 		<references>
 			<reference file="Castle.Windsor.dll" />
 		</references>
